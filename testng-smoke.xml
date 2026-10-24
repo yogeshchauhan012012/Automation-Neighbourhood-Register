@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Quick smoke: end-to-end flow + status lookups. Run with: mvn test -Dsuite=testng-smoke.xml -->
+<suite name="Neighbourhood Register - Smoke" verbose="1">
+  <test name="End to End">
+    <classes>
+      <class name="EndToEndFlow.NeighbourhoodRegisterEndToEndTest"/>
+    </classes>
+  </test>
+  <test name="Check Status - demo records">
+    <classes>
+      <class name="TestStatus.CheckStatusTest">
+        <methods>
+          <include name="STS_TC012_pendingCard"/>
+          <include name="STS_TC015_approvedCard"/>
+          <include name="STS_TC017_rejectedCard"/>
+          <include name="STS_TC024_wrongMobileNoMatch"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
