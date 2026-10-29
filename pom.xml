@@ -14,7 +14,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.release>17</maven.compiler.release>
     <!-- Suite to run; override with: mvn test -Dsuite=testng-smoke.xml -->
-    <suite>testng.xml</suite>
+    <suite>testng-smoke.xml</suite>
   </properties>
 
   <dependencies>
