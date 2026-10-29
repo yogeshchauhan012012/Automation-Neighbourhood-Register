@@ -1,7 +1,7 @@
 # Neighbourhood Register: Web Automation
 
 Selenium 4 + TestNG + ExtentReports automation for the **Neighbourhood Register** resident portal
-(`http://localhost:8080/neighbourhood-register/public/#register`).
+(`http://localhost:8081/neighbourhood-register/public/#register`).
 It follows the same structure as the `AlumniApplication` project: Page Object Model, one browser per test class, and one combined HTML report.
 
 ## Project layout

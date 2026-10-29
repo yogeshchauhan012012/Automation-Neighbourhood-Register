@@ -5,8 +5,7 @@ import java.util.List;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
-
+import org.testng.annotations.Test; 
 import Base.BaseTest;
 import Pages.RegisterHouseholdPage;
 import Pages.ReviewApplicationPage;
